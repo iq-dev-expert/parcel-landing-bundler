@@ -1,0 +1,14 @@
+body {
+  background-color: bisque;
+}
+
+header {
+  justify-content: space-between;
+  width: 300px;
+  display: flex;
+}
+
+h1 {
+  color: tomato;
+}
+/*# sourceMappingURL=contacts.0c6a0a0c.css.map */
