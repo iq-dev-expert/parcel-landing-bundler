@@ -2,8 +2,8 @@
   "name": "parcel-landing-bundler",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel src/pages/**/*.html -p 3000",
-    "build": "parcel build src/pages/**/*.html"
+    "dev": "parcel src/pages/*.html -p 3000",
+    "build": "parcel build src/pages/*.html"
   },
   "devDependencies": {
     "parcel": "^2.12.0",

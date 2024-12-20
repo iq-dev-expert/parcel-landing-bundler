@@ -1,0 +1,6 @@
+@import "../global.css";
+@import "../components/header/header.css";
+
+h1 {
+  color: green;
+}
