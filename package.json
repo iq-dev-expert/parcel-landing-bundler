@@ -1,14 +1,9 @@
 {
   "name": "parcel-landing-bundler",
-  "targets": {
-    "default": {
-      "publicUrl": "./"
-    }
-  },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel src/pages/*.html -p 3000",
-    "build": "parcel build src/pages/*.html"
+    "build": "parcel build src/pages/*.html --public-url"
   },
   "devDependencies": {
     "parcel": "^2.12.0",
