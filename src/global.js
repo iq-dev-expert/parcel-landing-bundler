@@ -1,3 +1,3 @@
 (() => {
-  return console.log("This is Global for all Pages");
+  return console.log("This is");
 })();
