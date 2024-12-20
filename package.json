@@ -1,12 +1,13 @@
 {
   "name": "parcel-landing-bundler",
-  "source": "src/pages/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel",
-    "build": "parcel build"
+    "dev": "parcel src/pages/**/*.html -p 3000",
+    "build": "parcel build src/pages/**/*.html"
   },
   "devDependencies": {
     "parcel": "^2.12.0",
+    "posthtml-include": "^2.0.1",
     "prettier": "3.3.3"
   }
 }
